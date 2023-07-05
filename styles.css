@@ -3,7 +3,7 @@ img {
     margin-right: auto;
     height: auto;
     display: block;
-    max-width: 80%;
+    max-width: 70%;
     border-radius: 20px;
    }
 h1 {
@@ -23,6 +23,8 @@ h2 {
 }
 figcaption {
     font-size: 25px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    text-align: center;
 }
 #wrapper {
     display: flex;
