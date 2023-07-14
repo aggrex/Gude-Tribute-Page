@@ -9,17 +9,24 @@ img {
    }
 h1 {
     font-family: 'Cherry Bomb One', cursive;
-    font-size: 80px;
+    font-size: 90px;
+    font-size: 100%;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 p {
     font-family: 'Tsukimi Rounded', sans-serif;
     font-size: 20px;
     text-align: left;
+    padding: 8px;
 }
 h2 {
     font-family: 'Cherry Bomb One', cursive;
     font-size: 80px;
+    padding-top: 40px;
+    padding-bottom: 30px;
     text-align: center;
 }
 figcaption {
@@ -29,9 +36,10 @@ figcaption {
 }
 #wrapper {
     display: flex;
+    flex-wrap: wrap;
     flex: auto;
     background-color: lemonchiffon;
-    padding: 30px;
+    padding: 40px;
     font-size: 80px;
     border-radius: 20px;
 }
@@ -40,6 +48,7 @@ body {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    padding: 50px;
     padding: 60px;
     background-color: #589aa2;
 }
@@ -48,11 +57,18 @@ b {
     font-family: 'Cherry Bomb One', cursive;
 }
 #tribute-link {
+    font-family: 'Cherry Bomb One', cursive;
     color: #589aa2;
+    align-items: center;
 }
 * {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+a {
+    text-align: center;
+    align-items: center;
+    align-content: center;
 }
