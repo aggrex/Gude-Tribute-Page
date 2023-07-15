@@ -9,22 +9,23 @@ img {
    }
 h1 {
     font-family: 'Cherry Bomb One', cursive;
-    font-size: 90px;
-    font-size: 100%;
-    padding: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-size: 5.9vw;
+    max-width: fit-content;
+    padding: 3.5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     text-align: center;
 }
 p {
     font-family: 'Tsukimi Rounded', sans-serif;
-    font-size: 20px;
+    font-size: 2vmin;
     text-align: left;
     padding: 8px;
 }
 h2 {
     font-family: 'Cherry Bomb One', cursive;
-    font-size: 80px;
+    font-size: 3.0vw;
+    max-width: fit-content;
     padding-top: 40px;
     padding-bottom: 30px;
     text-align: center;
@@ -55,6 +56,8 @@ body {
 b {
     font-size: 30px;
     font-family: 'Cherry Bomb One', cursive;
+    font-size: 3vw;
+
 }
 #tribute-link {
     font-family: 'Cherry Bomb One', cursive;
@@ -66,9 +69,13 @@ b {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    max-width: 100%;
 }
 a {
     text-align: center;
     align-items: center;
     align-content: center;
+}
+section {
+    align-items: center;
 }
