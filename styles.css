@@ -75,6 +75,8 @@ a {
     text-align: center;
     align-items: center;
     align-content: center;
+    font-size: 3.0vw;
+    max-width: fit-content;
 }
 section {
     align-items: center;
